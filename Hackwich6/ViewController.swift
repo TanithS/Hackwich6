@@ -22,7 +22,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.textLabel?.text = text
         return cell
     }
-    
 
         override func viewDidLoad() {
         super.viewDidLoad()
