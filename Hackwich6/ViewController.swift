@@ -12,14 +12,24 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var myFriendsArray = ["Miku", "Sarah", "Nicole"]
     
+    var countriesToVisitArray = ["Scotland", "Canada", "Japan"]
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return myFriendsArray.count
+        
+        //return myFriendsArray.count
+        return countriesToVisitArray.count
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellReuseIdentifier")!
-        let text = myFriendsArray[indexPath.row]
+        
+        //let text = myFriendsArray[indexPath.row]
+        let text = countriesToVisitArray[indexPath.row]
+        
         cell.textLabel?.text = text
+        
         return cell
     }
 
