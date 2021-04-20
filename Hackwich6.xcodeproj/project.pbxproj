@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE305AE8262F675B00609D85 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE305AE7262F675B00609D85 /* Property List.plist */; };
+		CE305AEB262F6D2B00609D85 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE305AEA262F6D2B00609D85 /* detailViewController.swift */; };
 		CEE9364225EECB2B00E762A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9364125EECB2B00E762A2 /* AppDelegate.swift */; };
 		CEE9364425EECB2B00E762A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9364325EECB2B00E762A2 /* SceneDelegate.swift */; };
 		CEE9364625EECB2B00E762A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9364525EECB2B00E762A2 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE305AE7262F675B00609D85 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		CE305AEA262F6D2B00609D85 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		CEE9363E25EECB2A00E762A2 /* Hackwich6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackwich6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE9364125EECB2B00E762A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE9364325EECB2B00E762A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +63,9 @@
 				CEE9364125EECB2B00E762A2 /* AppDelegate.swift */,
 				CEE9364325EECB2B00E762A2 /* SceneDelegate.swift */,
 				CEE9364525EECB2B00E762A2 /* ViewController.swift */,
+				CE305AEA262F6D2B00609D85 /* detailViewController.swift */,
 				CEE9364725EECB2B00E762A2 /* Main.storyboard */,
+				CE305AE7262F675B00609D85 /* Property List.plist */,
 				CEE9364A25EECB2E00E762A2 /* Assets.xcassets */,
 				CEE9364C25EECB2E00E762A2 /* LaunchScreen.storyboard */,
 				CEE9364F25EECB2E00E762A2 /* Info.plist */,
@@ -126,6 +132,7 @@
 			files = (
 				CEE9364E25EECB2E00E762A2 /* LaunchScreen.storyboard in Resources */,
 				CEE9364B25EECB2E00E762A2 /* Assets.xcassets in Resources */,
+				CE305AE8262F675B00609D85 /* Property List.plist in Resources */,
 				CEE9364925EECB2B00E762A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 				CEE9364625EECB2B00E762A2 /* ViewController.swift in Sources */,
 				CEE9364225EECB2B00E762A2 /* AppDelegate.swift in Sources */,
 				CEE9364425EECB2B00E762A2 /* SceneDelegate.swift in Sources */,
+				CE305AEB262F6D2B00609D85 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
