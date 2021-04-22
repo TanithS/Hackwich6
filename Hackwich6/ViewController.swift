@@ -20,6 +20,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var friendsHomeArray = ["Ewa Beach", "Kunia", "Kapolei"]*/
     
+    var restaurantArray = ["Kapolei Kalapawai"]
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -43,6 +45,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
         //cell.detailTextLabel?.text = friendsHomeArray[indexPath.row]
         
+        let text = restaurantArray[indexPath.row]
+        
+        cell.textLabel?.text = text
+        
         return cell
     }
 
@@ -55,6 +61,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             let dict = NSDictionary(contentsOfFile: path!)
             
             restaurantImageData = dict!.object(forKey: "restaurantImages") as! [String]
+            
             
     }
     
